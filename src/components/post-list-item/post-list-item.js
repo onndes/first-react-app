@@ -1,4 +1,5 @@
 import React from "react";
+import "./post-list-item.css";
 
 const PostListItem = () => {
     return (
@@ -6,7 +7,7 @@ const PostListItem = () => {
             <span className="app=list-lable">hello world</span>
             <div className="d-flex justify-content-center align-item-center">
                 <button type="button" className="btn-star btn-sm">
-                    <i className="fa fa-star"></i>
+                   <i className="fa fa-star"></i>
                 </button>
                 <button type="button" className="btn-trash btn-sm">
                     <i className="fa fa-trash-o"></i>
