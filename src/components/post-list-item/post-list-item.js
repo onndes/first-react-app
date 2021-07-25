@@ -1,7 +1,7 @@
-import React from "react";
-import "./post-list-item.css";
+import React, {Component} from "react";
+import "./post-list-item.scss";
 
-export default class PostListItem extends React.Component {
+export default class PostListItem extends Component {
     constructor(props) {
         super(props);
         this.state = {
