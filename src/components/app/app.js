@@ -10,7 +10,8 @@ import styled from "styled-components";
 
 const AppBlock = styled.div`
     margin: 0 auto;
-    max-width: 800px;
+    max-width: 820px;
+    padding: 0 10px;
 `;
 
 export default class App extends Component {
@@ -116,7 +117,7 @@ export default class App extends Component {
         return (
             <AppBlock>
                 <AppHeader liked={liked} allPosts={allPosts} />
-                <div className="search-panel d-flex">
+                <div className="search-panel search-panel_w d-flex flex-wrap ">
                     <SearchPanel onUpdateSearch={this.onUpdateSearch} />
                     <PostStatusFilter filter={filter} onFilterSelect={this.onFilterSelect} />
                 </div>

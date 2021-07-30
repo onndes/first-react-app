@@ -6,11 +6,12 @@ const Header = styled.div`
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
+    flex-wrap: wrap;
     h1 {
         font-size: 26px;
         color: ${(props) => (props.colored ? "red" : "black")};
         :hover {
-            color: blue;
+            text-decoration: underline;
         }
     }
     h2 {
@@ -25,7 +26,7 @@ const AppHeader = ({ liked, allPosts }) => {
         <Header>
             <h1>Vlad Vylotnikov</h1>
             <h2>
-                {allPosts} записей, из них понравилось {liked}
+                Записей {allPosts}, из них понравилось {liked}
             </h2>
         </Header>
     );

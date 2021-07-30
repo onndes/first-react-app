@@ -21,6 +21,6 @@ export default class PostStatusFilter extends Component {
                 </button>
             );
         });
-        return <div className="btn-group">{buttons}</div>;
+        return <div className="btn-group btn-group_m">{buttons}</div>;
     }
 }

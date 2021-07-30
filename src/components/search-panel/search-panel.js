@@ -8,6 +8,7 @@ export default class SearchPanel extends Component {
         };
         this.onUpdateSearch = this.onUpdateSearch.bind(this);
     }
+
     onUpdateSearch(e) {
         const term = e.target.value;
         this.setState({
@@ -15,6 +16,7 @@ export default class SearchPanel extends Component {
         });
         this.props.onUpdateSearch(term);
     }
+    
     render() {
         return (
             <input

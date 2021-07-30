@@ -44,9 +44,12 @@ $grey: #aeaeae;
     transform: translateX(0px);
   }
   &.important .app-list-item-label {
-    color: $gold;
-    // text-shadow: 0px 0px 3px rgb(46, 46, 46);
+    // color: $gold;
+    // text-shadow: 0px 0px 20px $gold;
     font-weight: 600;
+    display: block;
+    position: relative;
+
   }
   &.important .btn-star {
     color: $gold;
