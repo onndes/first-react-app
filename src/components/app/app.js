@@ -18,9 +18,9 @@ export default class App extends Component {
         super(props);
         this.state = {
             data: [
-                { label: "Going to learn React", like: false, important: true, id: "1" },
-                { label: "That is so good", like: false, important: false, id: "2" },
-                { label: "I need a break", like: false, important: false, id: "3" },
+                { label: "Изучаю React", like: false, important: true, id: "1" },
+                { label: "Мне нравится React", like: true, important: false, id: "2" },
+                { label: "Продолжаю изучать", like: false, important: false, id: "3" },
             ],
             term: "",
             filter: "all",
