@@ -1,5 +1,8 @@
 # This is my first app for studying react
 
+## This project was carried out in the course of the course - "React Library. Basic Level"
+
+
 ## Available Scripts
 
 In the project directory, you can run:
