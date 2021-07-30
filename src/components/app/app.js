@@ -22,6 +22,7 @@ export default class App extends Component {
                 { label: "That is so good", like: false, important: false, id: "2" },
                 { label: "I need a break", like: false, important: false, id: "3" },
             ],
+            term: "",
         };
         this.deleteItem = this.deleteItem.bind(this);
         this.addItem = this.addItem.bind(this);
@@ -71,10 +72,14 @@ export default class App extends Component {
         });
     }
 
+
+
     render() {
-        const { data } = this.state;
+        const { data, term } = this.state;
         const liked = data.filter((item) => item.like).length;
         const allPosts = data.length;
+
+
 
         return (
             <AppBlock>
@@ -86,8 +91,6 @@ export default class App extends Component {
                 <PostList
                     posts={this.state.data}
                     onDelete={this.deleteItem}
-                    // onToggleImportant={this.onToggleImportant}
-                    // onToggleLiked={this.onToggleLiked}
                     onToggleImportant={this.onToggleItemList}
                     onToggleLiked={this.onToggleItemList}
                 />
