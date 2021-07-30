@@ -2,10 +2,6 @@
 
 ## This project was carried out in the course of the course - "React Library. Basic Level"
 
-<<<<<<< HEAD
-=======
-
->>>>>>> face4443a9d69889779a4de30dee28bf7c24dfb2
 ## Available Scripts
 
 In the project directory, you can run:
