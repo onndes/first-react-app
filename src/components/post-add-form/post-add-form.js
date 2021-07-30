@@ -19,7 +19,7 @@ export default class PostAddFrom extends Component {
         e.preventDefault();
         this.props.onAdd(this.state.text);
         this.setState({
-            test: "",
+            text: "",
         });
     }
 
