@@ -81,6 +81,7 @@ export default class App extends Component {
             return item.label.indexOf(term) > -1;
         });
     }
+
     onUpdateSearch(term) {
         this.setState({
             term: term,
