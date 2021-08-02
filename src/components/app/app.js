@@ -13,6 +13,7 @@ const AppBlock = styled.div`
     max-width: 820px;
     padding: 0 10px;
 `;
+
  export default class App extends Component {
     constructor(props) {
         super(props);

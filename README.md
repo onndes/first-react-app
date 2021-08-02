@@ -1,4 +1,4 @@
-# This is my first app for studying react
+# This is my first app for studying REACT
 
 ## This project was carried out in the course of the course - "React Library. Basic Level"
 
